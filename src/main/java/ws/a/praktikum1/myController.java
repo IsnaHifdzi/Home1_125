@@ -42,7 +42,7 @@ public class myController {
         }
         return rslt;
     }
-    @RequestMapping ("/nexthalaman")
+    @RequestMapping ("nexthalaman")
     
     public String next(
     @RequestParam (value = "varA") String isipertama,
@@ -58,7 +58,7 @@ public class myController {
         kurir.addAttribute("paket3" , imglink);
         
         
-        return "viewpage";
+        return "view";
     }
     
         
